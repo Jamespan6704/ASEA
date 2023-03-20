@@ -2,9 +2,9 @@ body {
   background-color: black;
 }
 .main {
-  background-color: rgba(255, 255, 255, 1);
-  width: 595px;
-  height: 795px;
+  background-color: rgb(255, 255, 255);
+  width: 597px;
+  height: 790px;
   position: absolute;
 }
 .hero {
@@ -44,6 +44,29 @@ body {
   text-align: left;
   font-size: 22px;
   letter-spacing: 0;
+  font-weight: 300;
+}
+
+a {
+  position: absolute;
+  color: white;
+  width: 70px;
+  height: 10%;
+  left: 40%;
+  text-decoration: none;
+}
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #4b77d4;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
 }
 .e1_7 {
   color: rgba(255, 255, 255, 1);
@@ -153,7 +176,7 @@ body {
   height: 40px;
   position: absolute;
   left: 259px;
-  top: 373px;
+  top: 370px;
   font-family: Montserrat;
   text-align: left;
   font-size: 9px;
@@ -223,6 +246,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: undefined;
+  font-weight: 700;
 }
 .e3_10 {
   color: rgba(0, 0, 0, 1);
@@ -235,6 +259,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: 5;
+  font-weight: 700;
 }
 .e3_11 {
   color: rgba(0, 0, 0, 1);
@@ -247,6 +272,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: 5;
+  font-weight: 700;
 }
 .e3_14 {
   transform: rotate(-0.000005008956538086317deg);
@@ -313,7 +339,7 @@ body {
 }
 .e3_24 {
   color: rgba(0, 0, 0, 1);
-  width: 79px;
+  width: 70px;
   height: 23px;
   position: absolute;
   left: 358px;
@@ -359,6 +385,17 @@ body {
   font-size: 9px;
   letter-spacing: 0;
 }
+#tm {
+  color: rgba(255, 255, 255, 1);
+  width: 185px;
+  height: 15px;
+  /* position: absolute; */
+  left: 51px;
+  top: 600px;
+  font-family: Montserrat;
+  /* text-align: left; */
+  font-size: 6px;
+}
 .e3_25 {
   color: rgba(0, 0, 0, 1);
   width: 82px;
@@ -394,6 +431,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
 .e3_28 {
   color: rgba(0, 0, 0, 1);
@@ -406,6 +444,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
 .e3_29 {
   color: rgba(0, 0, 0, 1);
@@ -418,6 +457,7 @@ body {
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
 .footer {
   color: rgba(0, 0, 0, 1);
@@ -431,9 +471,28 @@ body {
   font-size: 4.75px;
   letter-spacing: 0;
   line-height: 5px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
+#line1 {
+  transform: rotate(8.045726593026463e-22deg);
+  width: 295px;
+  height: 0px;
+  position: absolute;
+  left: 259px;
+  top: 630px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+#line2 {
+  transform: rotate(8.045726593026463e-22deg);
+  width: 295px;
+  height: 0px;
+  position: absolute;
+  left: 259px;
+  top: 660px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
 .line {
   transform: rotate(8.045726593026463e-22deg);
   width: 295px;
@@ -443,5 +502,5 @@ body {
   top: 730px;
 }
 .line {
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
 }

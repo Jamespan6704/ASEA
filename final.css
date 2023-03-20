@@ -1,11 +1,33 @@
-.e8_127 {
-  overflow: hidden;
+body {
+  background-color: black;
 }
-.e8_127 {
+.main {
   background-color: rgba(255, 255, 255, 1);
   width: 611px;
   height: 795px;
   position: absolute;
+}
+
+a {
+  position: absolute;
+  color: white;
+  width: 95px;
+  height: 10%;
+  left: 45%;
+  text-decoration: none;
+}
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #4b77d4;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
 }
 .e8_137 {
   color: rgba(0, 0, 0, 1);
@@ -18,7 +40,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_151 {
   color: rgba(0, 0, 0, 1);
@@ -31,7 +54,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_138 {
   transform: rotate(-0.000005008956538086317deg);
@@ -46,18 +70,19 @@
 }
 .e8_139 {
   color: rgba(0, 0, 0, 1);
-  width: 297px;
+  width: 330px;
   height: 17px;
   position: absolute;
   left: 28px;
   top: 746px;
   font-family: Montserrat;
   text-align: left;
-  font-size: 4.5px;
-  letter-spacing: 0;
-  line-height: px;
+  font-size: 5px;
+  letter-spacing: 0px;
+  line-height: 8px;
+  font-weight: 600;
 }
-.e8_149 {
+.terms {
   color: rgba(0, 0, 0, 1);
   width: 159px;
   height: 44px;
@@ -68,8 +93,9 @@
   text-align: left;
   font-size: 14px;
   letter-spacing: 0;
+  font-weight: 400;
 }
-.e8_150 {
+.eligibility {
   color: rgba(0, 0, 0, 1);
   width: 97px;
   height: 21px;
@@ -80,8 +106,9 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
-.e8_152 {
+.prize {
   color: rgba(0, 0, 0, 1);
   width: 97px;
   height: 21px;
@@ -92,8 +119,9 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
-.e9_167 {
+.agreements {
   color: rgba(0, 0, 0, 1);
   width: 97px;
   height: 21px;
@@ -104,6 +132,7 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
 .e9_171 {
   color: rgba(0, 0, 0, 1);
@@ -115,21 +144,26 @@
   font-family: Montserrat;
   text-align: left;
   font-size: 9px;
-  letter-spacing: 0;
+  line-height: 12px;
+  font-weight: 400;
 }
-.e9_178 {
+.bolded {
+  font-weight: 700;
+}
+.qualification {
   color: rgba(0, 0, 0, 1);
   width: 97px;
   height: 21px;
   position: absolute;
   left: 313px;
-  top: 572px;
+  top: 560px;
   font-family: Montserrat;
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
+  font-weight: 700;
 }
-.e8_159 {
+.travel {
   color: rgba(0, 0, 0, 1);
   width: 97px;
   height: 21px;
@@ -139,7 +173,7 @@
   font-family: Montserrat;
   text-align: left;
   font-size: 9px;
-  letter-spacing: 0;
+  font-weight: 700;
 }
 .e8_153 {
   color: rgba(0, 0, 0, 1);
@@ -152,7 +186,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_160 {
   color: rgba(0, 0, 0, 1);
@@ -165,7 +200,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_161 {
   color: rgba(0, 0, 0, 1);
@@ -178,7 +214,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_164 {
   color: rgba(0, 0, 0, 1);
@@ -191,7 +228,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_165 {
   color: rgba(0, 0, 0, 1);
@@ -204,7 +242,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_166 {
   color: rgba(0, 0, 0, 1);
@@ -217,7 +256,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_168 {
   color: rgba(0, 0, 0, 1);
@@ -230,7 +270,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_169 {
   color: rgba(0, 0, 0, 1);
@@ -243,7 +284,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_170 {
   color: rgba(0, 0, 0, 1);
@@ -256,7 +298,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_174 {
   color: rgba(0, 0, 0, 1);
@@ -269,7 +312,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_175 {
   color: rgba(0, 0, 0, 1);
@@ -282,7 +326,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_176 {
   color: rgba(0, 0, 0, 1);
@@ -295,7 +340,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e9_177 {
   color: rgba(0, 0, 0, 1);
@@ -308,20 +354,22 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
-.e9_179 {
+.legacy {
   color: rgba(0, 0, 0, 1);
   width: 274px;
   height: 72px;
   position: absolute;
   left: 313px;
-  top: 589px;
+  top: 575px;
   font-family: Montserrat;
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_162 {
   color: rgba(0, 0, 0, 1);
@@ -334,7 +382,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_154 {
   color: rgba(0, 0, 0, 1);
@@ -347,7 +396,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_155 {
   color: rgba(0, 0, 0, 1);
@@ -360,7 +410,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_156 {
   color: rgba(0, 0, 0, 1);
@@ -373,7 +424,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_157 {
   color: rgba(0, 0, 0, 1);
@@ -386,7 +438,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_158 {
   color: rgba(0, 0, 0, 1);
@@ -399,7 +452,8 @@
   text-align: left;
   font-size: 9px;
   letter-spacing: 0;
-  line-height: px;
+  line-height: 12px;
+  font-weight: 400;
 }
 .e8_163 {
   color: rgba(0, 0, 0, 1);
@@ -411,47 +465,11 @@
   font-family: Nokora;
   text-align: left;
   font-size: 26px;
-  letter-spacing: 10;
+  letter-spacing: 3px;
   line-height: px;
 }
-.e9_185 {
-  box-shadow: 0px 4px 4px
-    rgba(70.33751651644707, 53.925429582595825, 53.925429582595825, 0.25);
-  background-color: rgba(
-    48.62000226974487,
-    150.5723923444748,
-    224.40001398324966,
-    1
-  );
-  width: 94px;
-  height: 27px;
-  position: absolute;
-  left: 382px;
-  top: 701px;
-}
-.e9_185 {
-  border: 1px solid
-    rgba(160.65001398324966, 159.31126981973648, 159.31126981973648, 1);
-}
-.e9_186 {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: rgba(
-    48.62000226974487,
-    150.5723923444748,
-    224.40001398324966,
-    1
-  );
-  width: 51px;
-  height: 27px;
-  position: absolute;
-  left: 499px;
-  top: 701px;
-}
-.e9_186 {
-  border: 1px solid
-    rgba(212.71250993013382, 210.9399050474167, 210.9399050474167, 1);
-}
-.e9_183 {
+
+.download {
   color: rgba(0, 0, 0, 1);
   width: 96px;
   height: 21px;
@@ -464,7 +482,49 @@
   letter-spacing: 0;
   line-height: px;
 }
-.e9_184 {
+
+#download {
+  color: rgba(0, 0, 0, 1);
+  width: 83px;
+  height: 21px;
+  position: absolute;
+  left: 387px;
+  top: 707px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: px;
+}
+
+#download::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #4b77d4;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+#download:hover::after {
+  width: 100%;
+}
+#print {
+  color: rgba(0, 0, 0, 1);
+  width: 55px;
+  height: 25px;
+  position: absolute;
+  left: 504px;
+  top: 707px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: px;
+}
+
+button {
   color: rgba(0, 0, 0, 1);
   width: 44px;
   height: 21px;
